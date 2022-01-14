@@ -8,7 +8,6 @@
 - [Features](#features)
 - [Requirements](#requirements)
 - [Setup](#setup)
-- [Usage](#usage)
 - [Roadmap](#roadmap)
 
 <!-- /TOC -->
