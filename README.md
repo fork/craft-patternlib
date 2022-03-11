@@ -1,6 +1,5 @@
 <div align="left">
-  <!--TODO: logo-->
-  <!--<img width="600" title="Craft Patternlib" src="https://github.fork.de/CraftPatternlib.svg">-->
+  <img width="600" title="Craft Patternlib" src="https://github.fork.de/CraftPatternlib_012022.svg">
 </div>
 
 **Table of contents**
@@ -36,7 +35,7 @@ composer require fork/craft-patternlib
 
 ## Roadmap
 
-- [ ] Logo
+- [x] Logo
 - [ ] More twig extensions maybe
 
 ---
