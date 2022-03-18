@@ -110,7 +110,7 @@ class PatternlibTwigExtension extends AbstractExtension
 
         foreach ($input as $key => $value) {
             if (!empty($key) && !empty($value)) {
-                $res = $res . $key . '="' . $value . '" ';
+                $res = $res . $key . '=' . $value . ' ';
             } elseif (!empty($key)) {
                 $res = $res . $key . ' ';
             }
