@@ -45,17 +45,17 @@ class Patternlib extends Plugin
     /**
      * @var string
      */
-    public $schemaVersion = '1.0.0';
+    public string $schemaVersion = '1.0.0';
 
     /**
      * @var bool
      */
-    public $hasCpSettings = false;
+    public bool $hasCpSettings = false;
 
     /**
      * @var bool
      */
-    public $hasCpSection = false;
+    public bool $hasCpSection = false;
 
     // Public Methods
     // =========================================================================
