@@ -10,15 +10,11 @@
 
 namespace fork\patternlib;
 
+use Craft;
+use craft\base\Plugin;
 use craft\events\RegisterTemplateRootsEvent;
 use craft\web\View;
 use fork\patternlib\twigextensions\PatternlibTwigExtension;
-
-use Craft;
-use craft\base\Plugin;
-use craft\services\Plugins;
-use craft\events\PluginEvent;
-
 use yii\base\Event;
 
 /**
@@ -45,17 +41,17 @@ class Patternlib extends Plugin
     /**
      * @var string
      */
-    public string $schemaVersion = '1.0.0';
+    public $schemaVersion = '1.0.0';
 
     /**
      * @var bool
      */
-    public bool $hasCpSettings = false;
+    public $hasCpSettings = false;
 
     /**
      * @var bool
      */
-    public bool $hasCpSection = false;
+    public $hasCpSection = false;
 
     // Public Methods
     // =========================================================================
