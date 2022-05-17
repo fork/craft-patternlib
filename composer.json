@@ -2,7 +2,7 @@
     "name": "fork/craft-patternlib",
     "description": "Fork frontend patternlib support including twig extensions and more",
     "type": "craft-plugin",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "keywords": [
         "craft",
         "cms",
