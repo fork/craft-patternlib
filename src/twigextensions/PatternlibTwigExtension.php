@@ -213,10 +213,8 @@ class PatternlibTwigExtension extends AbstractExtension
      */
     public function setCookie(string $name, string $value, int $expire = 0)
     {
-        $cookie = new Cookie();
-        $cookie->name = $name;
-        $cookie->value = $value;
-        $cookie->expire = $expire;
+        $config = Craft::cookieConfig(['name' => $name, 'value' => $value, 'expire' => $expire]);
+        $cookie = new Cookie($config);
 
         Craft::$app->getResponse()->getCookies()->add($cookie);
     }
